@@ -1,0 +1,278 @@
+/* ESTILOS GERAIS */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #172033;
+    line-height: 1.6;
+}
+
+a {
+    color: inherit;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* PAGINA INICIAL */
+.cabecalho {
+    background-color: #102a4c;
+    color: white;
+    padding: 45px 20px;
+    text-align: center;
+    border-bottom: 5px solid #0f8b83;
+}
+
+.marca {
+    margin: 0 0 8px;
+    color: #8ce0d8;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.cabecalho h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.intro {
+    max-width: 650px;
+    margin: 14px auto 0;
+    color: #dbe7f5;
+}
+
+.seccao-inicial {
+    padding: 40px 0 50px;
+}
+
+.seccao-titulo {
+    margin: 0 0 8px;
+    color: #173b68;
+    font-size: 27px;
+}
+
+.seccao-descricao {
+    margin: 0 0 25px;
+    color: #64748b;
+}
+
+.grupo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    padding: 20px 18px;
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.foto-cartao {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #d8f2ef;
+    background-color: #e8eef6;
+}
+
+.iniciais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #173b68;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.cartao h2 {
+    margin: 19px 0 6px;
+    color: #102a4c;
+    font-size: 18px;
+}
+
+.area {
+    margin: 0 0 18px;
+    color: #64748b;
+    font-size: 14px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 7px;
+    background-color: #0f8b83;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.botao-secundario {
+    background-color: #173b68;
+}
+
+.aviso {
+    margin-top: 25px;
+    padding: 15px 18px;
+    background-color: #fff8e9;
+    border-left: 4px solid #f29b38;
+    border-radius: 6px;
+    color: #65451d;
+}
+
+/* PERFIS INDIVIDUAIS */
+.topo-perfil {
+    padding: 40px 20px 35px;
+    background-color: #102a4c;
+    color: white;
+    text-align: center;
+    border-bottom: 5px solid #0f8b83;
+}
+
+.foto-perfil {
+    display: block;
+    width: 145px;
+    height: 145px;
+    margin: 0 auto 16px;
+    object-fit: cover;
+    border: 5px solid white;
+    border-radius: 50%;
+    background-color: #e8eef6;
+}
+
+.topo-perfil h1 {
+    margin: 0;
+    font-size: 34px;
+}
+
+.topo-perfil p {
+    margin: 5px 0;
+    color: #dbe7f5;
+}
+
+.etiqueta {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 6px 12px;
+    border: 1px solid #5f8db9;
+    border-radius: 30px;
+    color: #e8f3ff;
+    font-size: 14px;
+}
+
+.conteudo-perfil {
+    width: 90%;
+    max-width: 900px;
+    margin: 28px auto 45px;
+}
+
+.seccao {
+    margin-bottom: 22px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+}
+
+.seccao h2 {
+    margin: 0 0 14px;
+    padding-bottom: 9px;
+    color: #173b68;
+    border-bottom: 2px solid #d8f2ef;
+    font-size: 22px;
+}
+
+.seccao p {
+    margin: 0 0 12px;
+}
+
+.seccao p:last-child {
+    margin-bottom: 0;
+}
+
+.projectos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+}
+
+.projecto {
+    padding: 17px;
+    border: 1px solid #e2e8f0;
+    border-radius: 9px;
+    background-color: #fbfdff;
+}
+
+.projecto h3 {
+    margin: 0 0 8px;
+    color: #102a4c;
+    font-size: 16px;
+}
+
+.projecto p {
+    color: #64748b;
+    font-size: 14px;
+}
+
+.estado {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #fff0d5;
+    border-radius: 5px;
+    color: #78501a;
+    font-size: 12px;
+}
+
+.competencias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+.competencias span {
+    padding: 7px 11px;
+    background-color: #e8f6f4;
+    border: 1px solid #c8e9e5;
+    border-radius: 6px;
+    color: #17635e;
+    font-size: 14px;
+}
+
+.contactos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.rodape {
+    padding: 22px 15px;
+    background-color: #102a4c;
+    color: #dbe7f5;
+    text-align: center;
+}
+
+.rodape p {
+    margin: 10px 0 0;
+    font-size: 14px;
+}
+
+
+
